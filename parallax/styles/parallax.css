@@ -1,0 +1,184 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font: small-caps 100%/200% serif;
+    
+}
+header{
+
+    width: 100%;
+    height: 25vh;
+    background-color: black;
+    color: white;
+    position: fixed;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.nav{
+
+    width: 100%;
+    text-align: right;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    top: 0px;
+  
+}
+
+.nav ul li{
+
+    list-style: none;
+    font-family: "Sorts Mill Goudy", serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: cell;
+    display: inline-block;
+    padding: 10px 50px;
+    color:white;
+    outline: none;
+
+}
+.nav ul li a{
+    
+    text-decoration: none;
+    cursor: cell;
+}
+
+
+a{
+    color:white
+}
+
+a:hover{
+    color:red
+}
+
+
+
+.logo{
+
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: left;
+}
+
+
+.footer{
+    width: 100%;
+    padding: 30px;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    top: 0px;
+    background-color: black;
+}
+
+.elemento{
+    width: 30px;
+    height: auto;
+    
+}
+a{
+    color: white
+}
+
+.elemento a:hover{
+    color: red;
+    outline: none;
+    text-decoration: none;
+    cursor: cell;
+
+}
+
+
+.fondo-banda{
+
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background:url(imagenes/teitanbloodForm.jpeg) no-repeat center center fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    line-height: 24px;
+    background-color: black;
+    
+}
+
+.info{
+
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    
+
+}
+
+.info h2{
+
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+  
+    
+}
+.info p{
+
+    width: 100%;
+    height: auto;
+    padding: 20px 25%;
+     margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color:white;
+  
+}
+
+.logo-div{
+
+    width: 100%;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    line-height: 24px;
+    background-color: black;
+
+}
+
+.logo2{
+    width: 500px;
+    height: auto;
+}
+
